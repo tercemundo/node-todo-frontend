@@ -24,7 +24,21 @@ describe('TodoRequestOptions', () => {
 		expect(todoRequestOptions.getTodoIdUrl( filter )).to.equal(filter.id + '/')
 	});
 
+       //Added MG
 
+       it('suma 2+2 = 4', () => {
+           const suma = 2+2;
+           expect(suma).toBe(4);
+        });
+
+      it('suma 2+3 = 5', () => {
+         const suma = 2+3;
+        expect(suma).toBe(5);
+      });
+
+
+
+	
 	// getQueryFilters
 	it('getQueryFilters() should return empty', () => {
 		expect(todoRequestOptions.getQueryFilters()).to.be.empty;
